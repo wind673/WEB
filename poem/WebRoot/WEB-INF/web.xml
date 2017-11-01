@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="GBK"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+   
+  <servlet>
+    <servlet-name>user_login</servlet-name>
+    <servlet-class>Servlet.user_login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_login</servlet-name>
+    <url-pattern>/user_login</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>poem_find</servlet-name>
+        <servlet-class>Servlet.poem_find</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>poem_find</servlet-name>
+    <url-pattern>/poem_find</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_register</servlet-name>
+        <servlet-class>Servlet.user_register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_register</servlet-name>
+    <url-pattern>/user_register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_change</servlet-name>
+        <servlet-class>Servlet.user_change</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_change</servlet-name>
+    <url-pattern>/user_change</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>poem_show</servlet-name>
+        <servlet-class>Servlet.poem_show</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>poem_show</servlet-name>
+    <url-pattern>/poem_show</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_history</servlet-name>
+        <servlet-class>Servlet.user_history</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_history</servlet-name>
+    <url-pattern>/user_history</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_history_delete</servlet-name>
+        <servlet-class>Servlet.user_history_delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_history_delete</servlet-name>
+    <url-pattern>/user_history_delete</url-pattern>
+  </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>user_collect</servlet-name>
+        <servlet-class>Servlet.user_collect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_collect</servlet-name>
+    <url-pattern>/user_collect</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_collect_delete</servlet-name>
+        <servlet-class>Servlet.user_collect_delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_collect_delete</servlet-name>
+    <url-pattern>/user_collect_delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>user_collect_add</servlet-name>
+        <servlet-class>Servlet.user_collect_add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_collect_add</servlet-name>
+    <url-pattern>/user_collect_add</url-pattern>
+  </servlet-mapping>
+   
+  <servlet>
+    <servlet-name>user_show</servlet-name>
+        <servlet-class>Servlet.user_show</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>user_show</servlet-name>
+    <url-pattern>/user_show</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+ 
+</web-app>
